@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditTextPreference
+        android:title="@string/mobile_number_label"
+        android:key="@string/mobile_number_key"
+        android:defaultValue="@string/mobile_default"
+        android:inputType="number"
+        android:singleLine="true" />
+
+    <EditTextPreference
+        android:title="@string/speed_limit_label"
+        android:key="@string/speed_limit_key"
+        android:defaultValue="@string/speed_limit_default"
+        android:inputType="number"
+        android:singleLine="true" />
+
+    <EditTextPreference
+        android:title="@string/latitude_label"
+        android:key="@string/latitude_key"
+        android:defaultValue="@string/latitude_default"
+        android:inputType="numberDecimal"
+        android:singleLine="true" />
+
+    <EditTextPreference
+        android:title="@string/longitude_label"
+        android:key="@string/longitude_key"
+        android:defaultValue="@string/longitude_default"
+        android:inputType="numberDecimal"
+        android:singleLine="true" />
+
+    <EditTextPreference
+        android:title="@string/distance_limit_label"
+        android:key="@string/distance_limit_key"
+        android:defaultValue="@string/distance_limit_default"
+        android:inputType="number"
+        android:singleLine="true" />
+
+</PreferenceScreen>

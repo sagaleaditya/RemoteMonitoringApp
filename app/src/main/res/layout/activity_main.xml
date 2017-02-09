@@ -1,0 +1,53 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/imageView"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/background"
+        android:scaleType="centerCrop" />
+
+    <Button
+        android:background="@drawable/speed_btn_background"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-thin"
+        android:text="Speed- 0.0km/h"
+        android:id="@+id/spd_button"
+        android:paddingLeft="50dp"
+        android:paddingRight="50dp"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:textSize="20sp"
+        android:textAllCaps="false"
+        android:textColor="@color/btn_add_color"
+        android:layout_marginTop="135dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:background="@drawable/speed_btn_background"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Distance- 0.0km"
+        android:fontFamily="sans-serif-thin"
+        android:id="@+id/distance_button"
+        android:paddingLeft="50dp"
+        android:paddingRight="50dp"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:textSize="20sp"
+        android:textAllCaps="false"
+        android:textColor="@color/btn_add_color"
+        android:layout_marginBottom="129dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout>
